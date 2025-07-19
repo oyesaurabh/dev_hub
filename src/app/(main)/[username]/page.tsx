@@ -99,7 +99,7 @@ const UserProfile = () => {
                   ) : (
                     <Button
                       onClick={handleFollowUnfollow}
-                      className="absolute -bottom-[50px] right-5 bg-mainclr text-white font-semibold hover:bg-mainclr/80 transition-all duration-200 px-4 py-1.5 rounded-xl"
+                      className="absolute -bottom-[50px] right-5 bg-primary text-white font-semibold hover:bg-primary/80 transition-all duration-200 px-4 py-1.5 rounded-xl"
                     >
                       {isFollowUnfollowPending ? (
                         <Loader2 className="animate-spin" />

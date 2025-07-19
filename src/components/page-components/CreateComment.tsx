@@ -331,7 +331,7 @@ const CreateComment = ({ commentActive }: { commentActive: boolean }) => {
             className={`flex gap-1 items-center px-4 py-1.5 rounded-xl font-semibold ${
               isReplyPending || (!formData.text && !hasMedia)
                 ? "bg-zinc-700 text-zinc-500 cursor-not-allowed"
-                : "bg-mainclr text-white hover:bg-mainclr/80 transition-colors"
+                : "bg-primary text-white hover:bg-primary/80 transition-colors"
             }`}
           >
             {isReplyPending ? (

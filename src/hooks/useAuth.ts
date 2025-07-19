@@ -1,6 +1,6 @@
 import { useMutation, useQuery } from "@tanstack/react-query";
 import { AxiosError } from "axios";
-import { GetMeResponse, LogoutResponse, User } from "@/types/User";
+import { GetMeResponse, LogoutResponse } from "@/types/User";
 import { axiosService } from "@/services";
 import { useRouter } from "next/navigation";
 import { toast } from "sonner";

@@ -22,7 +22,6 @@ import { useRouter } from "next/navigation";
 import EditPost from "./EditPost";
 import { useFollowUnfollowUser, useIsFollowing } from "@/hooks";
 import { toast } from "sonner";
-import { Button } from "../ui/button";
 import WarningModel from "./WarningModel";
 import VerifiedBadge from "./VerifiedBadge";
 

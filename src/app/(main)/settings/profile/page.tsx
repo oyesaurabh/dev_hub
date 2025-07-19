@@ -95,7 +95,7 @@ const ProfilePage = () => {
     return (
       <>
         <div className="flex h-full items-center justify-center">
-          <div className="h-8 w-8 animate-spin rounded-full border-4 border-mainclr border-t-transparent"></div>
+          <div className="h-8 w-8 animate-spin rounded-full border-4 border-primary border-t-transparent"></div>
         </div>
       </>
     );
@@ -187,7 +187,7 @@ const ProfilePage = () => {
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               <div className="flex flex-col gap-1.5">
                 <label className=" text-sm font-medium">Full Name</label>
-                <div className="flex flex-row border rounded-xl gap-3 py-2 px-4 border-zinc-500 focus-within:border-mainclr transition-colors duration-200">
+                <div className="flex flex-row border rounded-xl gap-3 py-2 px-4 border-zinc-500 focus-within:border-primary transition-colors duration-200">
                   <input
                     name="fullName"
                     type="text"
@@ -201,7 +201,7 @@ const ProfilePage = () => {
             </div>
             <div className="flex flex-col gap-1.5">
               <label className="text-sm font-medium">Bio</label>
-              <div className="flex flex-row border rounded-xl gap-3 py-2 px-4 border-zinc-500 focus-within:border-mainclr transition-colors duration-200">
+              <div className="flex flex-row border rounded-xl gap-3 py-2 px-4 border-zinc-500 focus-within:border-primary transition-colors duration-200">
                 <textarea
                   name="bio"
                   value={formData.bio}
@@ -221,7 +221,7 @@ const ProfilePage = () => {
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               <div className="flex flex-col gap-1.5">
                 <label className="text-sm font-medium">Location</label>
-                <div className="flex flex-row border rounded-xl gap-3 py-2 px-4 border-zinc-500 focus-within:border-mainclr transition-colors duration-200">
+                <div className="flex flex-row border rounded-xl gap-3 py-2 px-4 border-zinc-500 focus-within:border-primary transition-colors duration-200">
                   <input
                     name="location"
                     type="text"
@@ -235,7 +235,7 @@ const ProfilePage = () => {
 
               <div className="flex flex-col gap-1.5">
                 <label className="text-sm font-medium">Website</label>
-                <div className="flex flex-row border rounded-xl gap-3 py-2 px-4 border-zinc-500 focus-within:border-mainclr transition-colors duration-200">
+                <div className="flex flex-row border rounded-xl gap-3 py-2 px-4 border-zinc-500 focus-within:border-primary transition-colors duration-200">
                   <input
                     name="link"
                     type="text"

@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { LoaderCircle } from "lucide-react";
-import { useCreateFeedback, FeedbackInput } from "@/hooks/useFeedback";
+import { useCreateFeedback } from "@/hooks/useFeedback";
 import { Input } from "./ui/input";
 import { Textarea } from "./ui/textarea";
 import { Button } from "./ui/button";
@@ -11,17 +11,14 @@ const FeedbackForm = () => {
   const { mutate: createFeedback, isPending } = useCreateFeedback();
   const [title, setTitle] = useState("");
   const [description, setDescription] = useState("");
-  const [error, setError] = useState(false);
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
     if (!title.trim() && !description.trim()) {
-      setError(true);
-      setTimeout(() => setError(false), 5000);
       return;
     }
-    const feedbackData: FeedbackInput = { title, description };
+    const feedbackData = { title, description };
     createFeedback(feedbackData);
     setTitle("");
     setDescription("");

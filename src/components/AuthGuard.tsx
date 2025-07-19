@@ -33,7 +33,7 @@ const AuthGuard = ({ children }: { children: React.ReactNode }) => {
         }
       } catch (error) {
         setIsAuthenticated(false);
-
+        console.error("Authentication check failed:", error);
         if (!isAuthRoute) {
           router.push("/login");
         }

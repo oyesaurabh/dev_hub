@@ -1,9 +1,8 @@
-// import MobileMenu from "@/layout/MobileMenu";
-// import MobileNavbar from "./MobileNavbar";
+import MobileMenu from "@/layout/sidebar/MobileMenu";
+import MobileNavbar from "@/layout/sidebar/MobileNavbar";
 import LeftSidebar from "@/layout/sidebar/LeftSidebar";
 import RightSidebar from "@/layout/sidebar/RightSidebar";
 import PostButton from "@/components/page-components/PostButton";
-import { ScrollArea } from "@/components/ui/scroll-area";
 
 const MainWrapper = ({ children }: { children: React.ReactNode }) => {
   return (
@@ -20,8 +19,8 @@ const MainWrapper = ({ children }: { children: React.ReactNode }) => {
           <RightSidebar />
         </div>
       </main>
-      {/* <MobileNavbar /> */}
-      {/* <MobileMenu /> */}
+      <MobileNavbar />
+      <MobileMenu />
     </>
   );
 };

@@ -90,7 +90,7 @@ const LeftSidebar = () => {
               </div>
             ) : unreadNotificationsCount?.count &&
               unreadNotificationsCount.count > 0 ? (
-              <div className="absolute -top-2 -right-1.5 bg-mainclr rounded-full min-w-[16px] h-4 flex items-center justify-center">
+              <div className="absolute -top-2 -right-1.5 bg-primary rounded-full min-w-[16px] h-4 flex items-center justify-center">
                 <span className="text-[10px] font-bold">
                   {unreadNotificationsCount.count > 99
                     ? "99+"
@@ -109,7 +109,7 @@ const LeftSidebar = () => {
               </div>
             ) : unreadNotificationsCount?.count &&
               unreadNotificationsCount.count > 0 ? (
-              <div className="absolute -top-2 -right-1.5 bg-mainclr rounded-full min-w-[16px] h-4 flex items-center justify-center">
+              <div className="absolute -top-2 -right-1.5 bg-primary rounded-full min-w-[16px] h-4 flex items-center justify-center">
                 <span className="text-[10px] font-bold">
                   {unreadNotificationsCount.count > 99
                     ? "99+"

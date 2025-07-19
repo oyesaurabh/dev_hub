@@ -227,7 +227,7 @@ const CreatePost = () => {
                         !formData.video) ||
                       isLoading
                     }
-                    className="px-4 py-1 bg-mainclr text-white font-semibold rounded-xl hover:bg-mainclr/80 transition-all duration-200 disabled:opacity-50 disabled:cursor-not-allowed"
+                    className="px-4 py-1 bg-primary text-white font-semibold rounded-xl hover:bg-primary/80 transition-all duration-200 disabled:opacity-50 disabled:cursor-not-allowed"
                   >
                     {isLoading ? (
                       <LoaderCircle className="animate-spin" />

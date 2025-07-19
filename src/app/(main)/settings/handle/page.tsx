@@ -20,16 +20,12 @@ const HandlePage = () => {
   const [error, setError] = useState("");
   const [isAvailable, setIsAvailable] = useState(false);
   const [isChecking, setIsChecking] = useState(false);
-  const [baseUrl, setBaseUrl] = useState("");
 
   useEffect(() => {
     if (authUser?.user) {
       setUsername(authUser.user.username);
       setOriginalUsername(authUser.user.username);
     }
-
-    // Set base URL safely on client side
-    setBaseUrl(window.location.origin);
   }, [authUser]);
 
   const handleUsernameChange = (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -105,7 +101,7 @@ const HandlePage = () => {
               className={`flex flex-row border rounded-xl gap-3 py-2 px-4 ${
                 error
                   ? "border-red-500"
-                  : "border-zinc-500 focus-within:border-mainclr"
+                  : "border-zinc-500 focus-within:border-primary"
               } transition-colors duration-200`}
             >
               <AtSign size={20} className="text-zinc-500" />

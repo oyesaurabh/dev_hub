@@ -49,7 +49,7 @@ const PasswordPage = () => {
       <div className="flex flex-col p-4">
         <div className="bg-zinc-800/30 rounded-lg p-4 mb-6">
           <div className="flex items-center gap-3 mb-2">
-            <Shield size={20} className="text-mainclr" />
+            <Shield size={20} className="text-primary" />
             <h2 className="font-semibold">Password Security</h2>
           </div>
           <p className="text-sm text-zinc-400">
