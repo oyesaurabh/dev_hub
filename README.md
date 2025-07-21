@@ -6,14 +6,29 @@ DevHub is a modern social networking platform built for developers and tech enth
 
 ![DevHub1](https://github.com/user-attachments/assets/d2adb00d-b965-4c9f-afd8-8bcf44edecd5)
 <br>
+
+---
+
 ![DevHub2](https://github.com/user-attachments/assets/a9ba0e30-d743-4d09-b39a-2e5b74b55cee)
 <br>
+
+---
+
 ![DevHub3](https://github.com/user-attachments/assets/e93c2c30-d054-403f-b60e-d559793af1e0)
 <br>
+
+---
+
 ![DevHub6](https://github.com/user-attachments/assets/e144e4cc-850b-4004-9587-7e27eb22b27f)
 <br>
+
+---
+
 ![DevHub4](https://github.com/user-attachments/assets/7ea9c72b-cf7d-4170-b57f-81f749485fe8)
 <br>
+
+---
+
 ![DevHub5](https://github.com/user-attachments/assets/61a43973-f494-495e-b8fb-c0f39a65a0b1)
 <br>
 
