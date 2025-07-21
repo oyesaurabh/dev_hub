@@ -4,24 +4,17 @@ DevHub is a modern social networking platform built for developers and tech enth
 
 ## 💻 Screenshots
 
-![DevHub1](https://github.com/user-attachments/assets/f22dfb02-90a0-4f20-bdf5-e7ffdf6176ea)
+![DevHub1](https://github.com/user-attachments/assets/d2adb00d-b965-4c9f-afd8-8bcf44edecd5)
 <br>
-
-![DevHub2](https://github.com/user-attachments/assets/3da31b78-d78b-4f96-911e-9e8268163c6d)
+![DevHub2](https://github.com/user-attachments/assets/a9ba0e30-d743-4d09-b39a-2e5b74b55cee)
 <br>
-
-![Devhub3](https://github.com/user-attachments/assets/6d55c2c4-71f2-4e5a-afc7-ac7f109343f7)
+![DevHub3](https://github.com/user-attachments/assets/e93c2c30-d054-403f-b60e-d559793af1e0)
 <br>
-
-![Devhub4](https://github.com/user-attachments/assets/a634a545-48a9-409b-b11f-ab98a813c06f)
+![DevHub6](https://github.com/user-attachments/assets/e144e4cc-850b-4004-9587-7e27eb22b27f)
 <br>
-
-![Devhub5](https://github.com/user-attachments/assets/6db94711-ed1a-4473-a3ab-07b7e67e3fa0)
+![DevHub4](https://github.com/user-attachments/assets/7ea9c72b-cf7d-4170-b57f-81f749485fe8)
 <br>
-
-![Devhub6](https://github.com/user-attachments/assets/79318d85-f6cb-403f-bb8d-70c8baf35aa7)
-![Devhub7](https://github.com/user-attachments/assets/4f9b4849-70ac-473e-bd35-83958d677bf4)
-![Devhub8](https://github.com/user-attachments/assets/d4cd82c2-de48-45eb-8ff3-c0419670bd9e)
+![DevHub5](https://github.com/user-attachments/assets/61a43973-f494-495e-b8fb-c0f39a65a0b1)
 <br>
 
 ## 🌟 Features
@@ -76,8 +69,6 @@ DevHub is a modern social networking platform built for developers and tech enth
 This project is licensed under the ISC License. See the [LICENSE](./LICENSE) file for details.
 
 ## 👨‍💻 Author
-
-**Saurabh Yadav**
 
 - GitHub: [@oyesaurabh](https://github.com/oyesaurabh)
 - LinkedIn: [@notsaurabh](https://linkedin.com/in/notsaurabh)
